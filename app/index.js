@@ -1,0 +1,9 @@
+{
+    root: {
+        paragraph: [
+            char: {
+                value: ''
+            }
+        ]
+    }
+}
