@@ -1,8 +1,8 @@
 import { ADD_CHAR, REMOVE_CHAR, CREATE_NEW_PARAGRAPH } from './consts';
 
-export const addChar = (value) => ({
+export const addChar = (value, style = null ) => ({
   	type: ADD_CHAR,
-  	paragraph: [ value ]
+  	paragraph: [ { value, style } ]
 });
 
 export const removeChar = (value) => ({
