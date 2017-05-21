@@ -1,12 +1,12 @@
 import { ADD_CHAR, REMOVE_CHAR } from '.././consts';
 
-function chars(state = [], action) {
+function paragraph(state = [], action) {
     switch (action.type) {
-        case ADD_RECT:
+        case ADD_CHAR:
             return state.concat([
                 { value, style }
             ]);
-        case REMOVE_RECT:
+        case REMOVE_CHAR:
             return state.filter(function(value) {
                 return value != state.paragraph.value;
             });          
@@ -15,4 +15,4 @@ function chars(state = [], action) {
     }
 }
 
-export default chars;
+export default paragraph;
