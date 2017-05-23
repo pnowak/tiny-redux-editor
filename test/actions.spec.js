@@ -7,8 +7,8 @@ describe('actions', () => {
 	    
 	    const addCharAction = {
 	      	type: types.ADD_CHAR,
-		    paragraph: [
-	           	{ value: 'a', style: null }
+		    chars: [
+	           	{ value: 'a', attribute: null }
 	        ]
 	    };
 	    
